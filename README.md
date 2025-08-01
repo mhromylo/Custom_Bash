@@ -23,14 +23,7 @@
   <li>🧠 <strong>Memory-safe</strong>: handles leaks and frees all resources properly</li>
 </ul>
 
-<h2>🛠️ Under the Hood</h2>
-<ul>
-  <li><strong>Parser</strong>: Tokenizes input and builds command structures</li>
-  <li><strong>Executor</strong>: Manages forks and <code>execve</code> calls</li>
-  <li><strong>Built-in Dispatcher</strong>: Detects and handles built-in commands internally</li>
-  <li><strong>Environment Manager</strong>: Maintains shell variables and updates</li>
-  <li><strong>Signal System</strong>: Gracefully manages signals (SIGINT, SIGQUIT)</li>
-</ul>
+
 
 
 <p align="center">🧑‍💻 Built from scratch with low-level system programming in C</p>
